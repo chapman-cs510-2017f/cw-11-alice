@@ -107,7 +107,9 @@ MATRIX add_matrix(const MATRIX *a, const MATRIX *b){
 
     for (i=0;i<(maxr*maxc);i++){ //loops through matrix and sets new value at each element
         c = *(a->mat + i) + *(b->mat + i);
-        mset(&newmatrix, maxr, maxc, c);
+        //mset(&newmatrix, maxr, maxc, c);
+        mset(&newmatrix, i/maxc, (i % maxc), c);
+        
     }
     return newmatrix;
 }
