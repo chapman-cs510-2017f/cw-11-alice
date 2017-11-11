@@ -1,8 +1,8 @@
 # CS510 CW 11
 
-**Author(s):** **CHANGEME**
+**Author(s):** **Jet, Alice, Sharon**
 
-[![Build Status](https://travis-ci.org/chapman-cs510-2017f/cw-11-YOURNAME.svg?branch=master)](https://travis-ci.org/chapman-cs510-2017f/cw-11-YOURNAME)
+[![Build Status](https://travis-ci.org/chapman-cs510-2017f/cw-11-alice-sharon-jet.svg?branch=master)](https://travis-ci.org/chapman-cs510-2017f/cw-11-alice-sharon-jet)
 
 ## Specification
 
@@ -41,4 +41,4 @@ I pledge that all the work in this repository is my own with only the following 
 
 Signed,
 
-**YOURNAME**
+**Jet, Alice, Sharon**
