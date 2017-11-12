@@ -41,21 +41,15 @@ void print_svalue(SVALUE data){
     printf("%d\n", data);
 }
 
-
+// Printer for stack
 void print_stack(STACK s){
-    // Printer for stack
-    STACK *tmp;
-    int i=0;
-    tmp=&s;
     
-    while (((*tmp)->head != NULL) && (i<5000)) 
+    while (s->head != NULL) 
     {
-        //printf("head=%LG", (*tmp)->head);
-        print_svalue((*tmp)->data);
-        *tmp = (*tmp)->head;      
-        i++;
+        print_svalue(s->data);
+        s = s->head;      
     }
     
     //if the last value in the stack(head is NULL), print the value of the tail of the stack 
-    print_svalue((*tmp)->data);
+    print_svalue(s->data);
 }
