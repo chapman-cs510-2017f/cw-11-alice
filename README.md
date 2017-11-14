@@ -30,7 +30,7 @@ Complete the following exercises, saving your solutions in the indicated files.
 
 Analyze in this section what you found useful about this assignment in your own words. Include any lingering questions or comments that you may have.
 
-**CHANGEME**
+**In this classwork we did an exercise to define MATRIX type and how it works in detail in a jupyter notebook. C uses uses "row-major ordering" for matrices. We also did an exercise that introduced stack and described how it works in detail in another jupyter notebook. Stack serves as a useful pointer to a structure.**
 
 ## Honor Pledge
 
